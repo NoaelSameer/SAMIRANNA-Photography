@@ -1,0 +1,102 @@
+/* This colors the background */
+body {
+    background-color: #f1e2d8;
+}
+
+/* This edits the first main picture */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+/* This is the 'Portfolio' on the page*/
+#heading {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* This is for the Navbar */
+.navbar {
+    background-color:#dfb79e;
+    overflow: hidden;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+/* This is for the Navbar links */
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+/* This is for the logo of the Navbar to float left */
+.navbar-logo {
+    float: left;
+}
+
+/* This edits the logo in the Navbar */
+.navbar-logo img {
+    height: 100px; 
+    width: 90px;
+    padding: 10px 12px;
+}
+
+/* These are for the content rows seen in the page */
+.row {
+    display: flex;
+}
+
+/* Makes the 2 content blocks on 1 row */
+.content-block {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changes the color of 1 block */
+.block1 {
+    background-color: #e6d4c9; 
+}
+
+/* Edits the image on 1 block */
+.block1 img {
+    height: 30em;
+    width: 40em;
+    border: 4px dashed white;
+    border-radius: 15px;
+}
+
+/* The color of the other block */
+.block2 {
+    background-color: #dfb79e; 
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+/* CSS for the footer */
+footer {
+    background-color: #dfb79e;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    width: 100%;
+}
