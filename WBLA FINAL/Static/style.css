@@ -21,3 +21,12 @@ button:hover{
     background-color: bisque;
     transition: background, color, 1s;
 }
+
+@media (max-width: 640px) {
+    .vw-text {
+        flex-direction: column;
+    }
+    .vw-text > div {
+        width: 100%;
+    }
+}
