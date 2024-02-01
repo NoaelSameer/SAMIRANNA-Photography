@@ -10,7 +10,7 @@
 }
 
 .Header{
-    background-image: url('../Static/Hero.jpg');
+    background-image: url('Hero.jpg');
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
