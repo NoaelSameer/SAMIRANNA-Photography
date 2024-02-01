@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../Static/order.css">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+  <div class="container min-w-full min-h-screen bg-[#cf8562]">
+    <!-- Navbar -->
+    <nav class="flex items-center bg-[#dfb79e]">
+       <a href="../Template/index.html"><img src="../Static/Logo.png" alt="Logo" class="w-20 cursor-pointer py-5 pl-5"></a>
+        <ul class="flex-1 text-end">
+            <li class="list-none inline-block px-5"><a href="../Template/Portfolio.html" class="no-underline text-black text-2xl px-2">Portfolio</a></li>
+            <li class="list-none inline-block px-5"><a href="../Template/testimonials.html" class="no-underline text-black text-2xl px-2">Testimonials</a></li>
+            <li class="list-none inline-block px-5"><a href="../Template/order.html" class="no-underline text-black text-2xl px-2">Book Now</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Your form elements here -->
+        <label for="productName">Name:</label>
+        <input type="text" id="productName" name="productName" placeholder="First and Last Name" required>
+
+        <label for="quantity">Photo Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="Quantity" required>
+
+        <label for="shippingMethod">Editing:</label>
+        <select id="shippingMethod" name="shippingMethod" required>
+            <option value="standard">Standard</option>
+            <option value="express">Premium</option>
+        </select>
+
+        <label for="productName">Email:</label>
+        <input type="text" id="email" name="email" placeholder="JohnDoe@Gmail.com" required>
+        <label for="productName">Address:</label>
+        <input type="text" id="location" name="location" required placeholder="1234 W Street Drive, City, State, Zipcode">
+        <button id="Submit" type="submit">Place Order</button>
+    </div>
+
+    <!-- Additional colored rectangles -->
+    <div class="rectangle red"></div>
+    <div class="rectangle blue"></div>
+    <div class="rectangle green"></div>
+    <div class="rectangle orange"></div>
+    <div class="flex justify-center bg-[#dfb79e] p-6">
+        <p>Copyright 2024 Samiranna Photography</p>
+    </div>
+</body>
+</html>
